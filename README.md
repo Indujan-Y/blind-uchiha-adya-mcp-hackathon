@@ -1,6 +1,6 @@
 # Vanij MCP Platform
 
-## 🚀 [MCP Integration Demo Video. (watch here)](https://drive.google.com/file/d/14JvBERtsT1ed1Db5GCDLllqdW5BL684S/view?usp=sharing)
+## 🚀 [MCP Integration Demo Video. (watch here)](https://drive.google.com/drive/folders/1yVGcYB9RhNDcoDs0qXCMAatWccarVXM1?usp=sharing)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org/)
