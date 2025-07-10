@@ -2,10 +2,9 @@
 
 ## 🚀 [MCP Integration Demo Video. (watch here)](https://drive.google.com/drive/folders/1yVGcYB9RhNDcoDs0qXCMAatWccarVXM1?usp=sharing)
 
-[![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 
-A comprehensive Model Context Protocol (MCP) platform providing standardized integrations between AI assistants and various services and APIs. This repository contains both JavaScript and Python implementations of MCP servers and clients for seamless service integration.
+A comprehensive Model Context Protocol (MCP) platform providing standardized integrations between AI assistants and various services and APIs. This repository contains Python implementations of MCP servers and clients for seamless service integration.
 
 ## 📋 Table of Contents
 
@@ -23,11 +22,10 @@ A comprehensive Model Context Protocol (MCP) platform providing standardized int
 
 ## 🌟 Overview
 
-The Vanij MCP Platform enables AI assistants to interact with external services through a standardized protocol. It provides a unified interface for connecting to various APIs and services, making it easier to build sophisticated AI-powered applications.
+The Blind Uchiha MCP Platform enables AI assistants to interact with external services through a standardized protocol. It provides a unified interface for connecting to various APIs and services, making it easier to build sophisticated AI-powered applications.
 
 ## ✨ Features
 
-- **Multi-language Support**: JavaScript and Python implementations
 - **Extensible Architecture**: Easy to add new MCP servers
 - **Standardized Protocol**: Consistent interface across all integrations
 - **Production Ready**: Built with scalability and reliability in mind
@@ -62,16 +60,12 @@ The Vanij MCP Platform enables AI assistants to interact with external services 
 
 ### Prerequisites
 
-- **Node.js**208+ (for JavaScript implementation)
 - **Python** 3.8+ (for Python implementation)
-- **npm** or **yarn** (for JavaScript dependencies)
 - **pip** (for Python dependencies)
 
-### Choose Your Implementation
+### Setup
 
-1. **JavaScript**: Follow the [JavaScript Setup](#javascript-setup) guide
-2. **Python**: Follow the [Python Setup](#python-setup) guide
-3. **Both**: Set up both implementations for maximum flexibility
+**Python**: Follow the [Python Setup](#python-setup) guide
 
 ## 🐍 Python Setup
 
