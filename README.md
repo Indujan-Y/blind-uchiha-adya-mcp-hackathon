@@ -41,20 +41,7 @@ The Vanij MCP Platform enables AI assistants to interact with external services 
 ```
 .
 ├── mcp_servers/
-│   ├── js/                           # JavaScript implementation
-│   │   ├── clients/                  # MCP clients
-│   │   │   ├── src/
-│   │   │   │   ├── client_and_server_config.ts  # Listed MCP Clients & Servers Configurations.
-│   │   │   │   └── ...
-│   │   │   ├── package.json   
-│   │   │   └── ...
-│   │   ├── servers/                  # MCP servers
-│   │   │   ├── WORDPRESS/           # WordPress integration
-│   │   │   ├── ZOOMMCP/             # Zoom integration
-│   │   │   ├── SALESFORCE_MCP/      # Salesforce integration
-│   │   │   ├── SLACK_MCP/           # Slack integration
-│   │   │   └── etc...
-│   │   └── package.json
+│   ├── js/
 │   └── python/                       # Python implementation
 │       ├── clients/                  # MCP clients
 │       │   ├── src/
@@ -63,11 +50,11 @@ The Vanij MCP Platform enables AI assistants to interact with external services 
 │       │   ├── requirements.txt
 │       │   └── ...
 │       └── servers/                  # MCP servers
-│           ├── MCP-GSUITE/          # GSuite integration
-│           ├── FACEBOOK_MCP/        # Facebook integration
-│           ├── FACEBOOK_ADS_MCP/    # Facebook Ads integration
-│           ├── POWER_BI_MCP/        # Power BI integration
-│           └── etc ...
+│           ├── MCP-PINGDOM/
+│           ├── MCP-ANYTYPE/
+│           ├── MCP-APPSIGNAL/
+│           ├── MCP-google-classroom/
+│           └── MCP-STOCKANALYZER/
 ├── mcp_servers_documentation/        # Detailed documentation of about MCP servers
 ├── postman_api_collections/         # API testing collections
 └── README.md
