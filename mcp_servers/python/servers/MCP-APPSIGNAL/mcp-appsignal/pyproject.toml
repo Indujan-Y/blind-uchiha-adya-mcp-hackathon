@@ -1,0 +1,26 @@
+[project]
+name = "mcp-appsignal"
+version = "0.1.0"
+description = "MCP server for AppSignal monitoring and error tracking"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+ "mcp>=1.1.0",
+ "requests>=2.32.3",
+ "python-dotenv>=1.0.1",
+]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.389",
+]
+
+[project.scripts]
+mcp-appsignal = "mcp_appsignal:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_appsignal"] 

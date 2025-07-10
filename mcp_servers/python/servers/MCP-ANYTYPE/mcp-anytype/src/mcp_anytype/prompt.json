@@ -1,0 +1,240 @@
+
+Create Space
+
+{
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "add a new space called 'AI Project Hub' with description 'Central hub for managing AI development projects and research'",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+
+  Read (List All Spaces)
+
+
+  {
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "list all my spaces",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+  Update Space
+
+
+  {
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "update the space with ID 'bafyreihnq5nceamfluz4nazdudtetf7ssvu6eo34lpslapuqqnvijeafgu.3hr9y6qpyv69n' to have the name 'AI Project' and description 'This is the updated description for my space'",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+
+
+  List Type Templates
+
+
+  {
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "list all templates for type ID 'bafyreihzdblxolbz4gydigx6kkfdicyolcpriizhthec2khcu7g4sx4rci' in space 'bafyreihnq5nceamfluz4nazdudtetf7ssvu6eo34lpslapuqqnvijeafgu.3hr9y6qpyv69n'",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+
+  Create Object in Space
+
+
+  {
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "add a new object to space 'bafyreihnq5nceamfluz4nazdudtetf7ssvu6eo34lpslapuqqnvijeafgu.3hr9y6qpyv69n' with name 'Project Plan', body 'This is the project plan', type 'page', template ID 'bafyreihzdblxolbz4gydigx6kkfdicyolcpriizhthec2khcu7g4sx4rci', and icon '📄'",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+
+
+
+
+ 
+
+
+  Read (List All Objects in Space)
+
+
+  {
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "list all objects in the space with ID 'bafyreihnq5nceamfluz4nazdudtetf7ssvu6eo34lpslapuqqnvijeafgu.3hr9y6qpyv69n'",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+
+  Update Object in Space
+
+
+
+  {
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "update the object with ID 'bafyreihzbx32fiibzdw7engerhamgtx7k5bw36hiohppipgm4kffrztxpy' in the space with ID 'bafyreihnq5nceamfluz4nazdudtetf7ssvu6eo34lpslapuqqnvijeafgu.3hr9y6qpyv69n' to have the name 'Updated Object Name' and the emoji icon '📝'",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+
+
+  Delete Object in Space
+
+
+  {
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "delete the object with ID 'bafyreihzbx32fiibzdw7engerhamgtx7k5bw36hiohppipgm4kffrztxpy' from the space with ID 'bafyreihnq5nceamfluz4nazdudtetf7ssvu6eo34lpslapuqqnvijeafgu.3hr9y6qpyv69n'",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+
+
+  Search Objects
+
+  {
+    "selected_server_credentials": {
+      "MCP-ANYTYPE": {
+        "api_token": "edEQBH5GX6iLRfi9GW3GnWqZCQs0egGl8HEAv5MHJjk="
+      }
+    },
+    "client_details": {
+      "api_key": "AIzaSyD9llrnvyZeF_WgxugFelhrdFOlABVoU7E",
+      "temperature": 0.1,
+      "max_token": 20000,
+      "input": "search for all objects containing the word 'mcp' and show the most recently modified ones",
+      "input_type": "text",
+      "chat_model": "gemini-2.5-pro"
+    },
+    "selected_client": "MCP_CLIENT_GEMINI",
+    "selected_servers": [
+      "MCP-ANYTYPE"
+    ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

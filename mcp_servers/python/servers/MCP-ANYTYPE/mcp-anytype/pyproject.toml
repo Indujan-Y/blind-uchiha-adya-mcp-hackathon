@@ -1,0 +1,27 @@
+[project]
+name = "mcp-anytype"
+version = "0.1.0"
+description = "MCP server for Anytype API integration"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+ "mcp>=1.1.0",
+ "requests>=2.32.3",
+ "python-dotenv>=1.0.1",
+ "httpx>=0.28.0,<0.29.0",
+]
+[[project.authors]]
+name = "Anytype MCP Team"
+email = "team@anytype.io"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.389",
+]
+
+[project.scripts]
+mcp-anytype = "mcp_anytype:main" 
