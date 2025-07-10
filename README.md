@@ -162,50 +162,19 @@ Python configuration is managed in:
 mcp_servers/python/clients/src/client_and_server_config.py
 ```
 
-## 🔌 Example MCP Servers
-
-### JavaScript Implementation
-
-| Server | Description | Status |
-|--------|-------------|--------|
-| **WordPress** | Content management and blog operations | ✅ Active |
-| **Zoom** | Video conferencing and meeting management | ✅ Active |
-| **Salesforce** | CRM and sales automation | ✅ Active |
-| **Slack** | Team communication and collaboration | ✅ Active |
-| **Jira** | Project management and issue tracking | ✅ Active |
-| **Google Drive** | Cloud storage and file management | ✅ Active |
-| **Zendesk** | Customer support and ticketing | ✅ Active |
-| **HubSpot** | Marketing and CRM platform | ✅ Active |
+## 🔌 MCP Servers
 
 ### Python Implementation
 
 | Server | Description | Status |
 |--------|-------------|--------|
-| **GSuite** | Google Workspace integration | ✅ Active |
-| **Facebook** | Social media platform integration | ✅ Active |
-| **Facebook Ads** | Advertising and campaign management | ✅ Active |
-| **Power BI** | Business intelligence and analytics | ✅ Active |
+| **GOOGLE CLASSROOM** | Classroom Courses Management | ✅ Active |
+| **APPSIGNAL** | Error Management | ✅ Active |
+| **ANYTYPE** | AI based notes management | ✅ Active |
+| **STOCK ANALYZER** | Stocks analytics | ✅ Active |
+| **PINGDOM** | Error management | ✅ Active |
 
 ## ⚙️ Configuration
-
-### JavaScript Configuration
-
-Edit `mcp_servers/js/clients/src/client_and_server_config.ts`:
-
-```typescript
-export const ServersConfig = [
-    {
-        server_name :"WORDPRESS", // Server Name should be same as the folder name in mcp_servers/js/servers/ folder.
-        server_features_and_capability:`wordpress server is used to create, update, delete and get content from wordpress website.`,
-        path : "build/index.js"
-    },
-    {
-        server_name :"User MCP Server Name",   
-        server_features_and_capability:`feactures description`,
-        path : "dist/index.js" // path should be the build file path in the mcp Server under the folder name
-    },
-];
-```
 
 ### Python Configuration
 
@@ -268,24 +237,10 @@ We welcome contributions! Please follow these steps:
 - Update documentation as needed
 - Ensure all tests pass before submitting PR
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🆘 Support
 
 - **Documentation**: Check the `mcp_servers_documentation/` directory
 - **Issues**: Open an issue on GitHub
 - **Discussions**: Use GitHub Discussions for questions
 
-## 🏗️ Roadmap
-
-- [ ] Additional language implementations (Go, Rust)
-- [ ] More third-party service integrations
-- [ ] Enhanced monitoring and logging
-- [ ] Docker containerization
-- [ ] Kubernetes deployment guides
-
----
-
-**Built with ❤️ by the Vanij Team**
+**Built with ❤️ by the Team Team Blind Uchiha**
